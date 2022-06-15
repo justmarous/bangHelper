@@ -1,0 +1,57 @@
+id,name,desc
+joker pik,renegat,pokonaj wszystkich graczy
+joker karo,szeryf,pokonaj bandytów
+joker trefl,renegat,pokonaj wszystkich graczy
+joker kier,szeryf,pokonaj bandytów
+2 kier,none,karta nieprzypisana
+3 kier,gnat2,zasięg 2
+4 kier,gnat2,zasięg 2
+5 kier,gnat3,zasięg 3
+6 kier,gnat4,zasięg 4
+7 kier,gnat5,zasięg 5
+8 kier,Volcanic,możesz użyć dowolnej liczby bangów w swoim ruchu
+9 kier,luneta,widzisz innych graczy w zasięgu -1
+10 kier,sklep,połóż tyle kart ile graczy - każdy dobiera jedną po kolei
+jopek kier,mustang,każdy gracz widzi Cię w zasięgu +1
+królowa kier,kasiabalou,zabierz 1 kartę graczowi
+król kier,baryłka,2-10 kier - działa jak pudło
+as kier,dynamit,2-8 pik - tracisz 3pkt życia - podaj dalej po swojej turze
+2 pik,none,karta nieprzypisana
+3 pik,bang,strzel do gracza w zasięgu
+4 pik,bang,strzel do gracza w zasięgu
+5 pik,bang,strzel do gracza w zasięgu
+6 pik,bang,strzel do gracza w zasięgu
+7 pik,bang,strzel do gracza w zasięgu
+8 pik,bang,strzel do gracza w zasięgu
+9 pik,bang,strzel do gracza w zasięgu
+10 pik,więzienie,kieruj gracza do więzienia na 1 rundę - 2-10 kier to wyjście z więzienia
+jopek pik,pojedynek,pierwszy gracz bez banga otrzymuje obrażenia
+królowa pik,panika,zniszcz jedną kartę gracza
+król pik,none,karta nieprzypisana
+as pik,bandyta,pokonaj szeryfa
+2 karo,pudło,uniknij karty bang
+3 karo,pudło,uniknij karty bang
+4 karo,pudło,uniknij karty bang
+5 karo,pudło,uniknij karty bang
+6 karo,pudło,uniknij karty bang
+7 karo,pudło,uniknij karty bang
+8 karo,piwko,odzyskaj 1 pkt życia
+9 karo,piwko,odzyskaj 1 pkt życia
+10 karo,piwko,odzyskaj 1 pkt życia
+jopek karo,dylizans,dobierz 2 karty
+królowa karo,kasiabalou,zabierz 1 kartę graczowi
+król karo,wellsfargo,dobierz 3 karty
+as karo,saloon,każdy gracz odzyskuje 1pkt życia
+2 trefl,none,strzel do gracza w zasięgu
+3 trefl,none,strzel do gracza w zasięgu
+4 trefl,bang,strzel do gracza w zasięgu
+5 trefl,bang,strzel do gracza w zasięgu
+6 trefl,bang,strzel do gracza w zasięgu
+7 trefl,bang,strzel do gracza w zasięgu
+8 trefl,bang,strzel do gracza w zasięgu
+9 trefl,bang,strzel do gracza w zasięgu
+10 trefl,wiezienie,skieruj gracza do więzienia na 1 rundę - 2-10 kier to wyjście z więzienia
+jopek trefl,pojedynek,pierwszy gracz bez banga otrzymuje obrażenia
+królowa trefl,panika,zniszcz jedną kartę gracza
+król trefl,gatling,każdy gracz musi użyć pudła albo traci 1pkt życia
+as trefl,bandyta,pokonaj szeryfa

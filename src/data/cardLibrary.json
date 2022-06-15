@@ -1,0 +1,288 @@
+{"cardLibrary":[
+  {
+    "id": "id",
+    "name": "name",
+    "desc": "desc"
+  },
+  {
+    "id": "joker pik",
+    "name": "renegat",
+    "desc": "pokonaj wszystkich graczy"
+  },
+  {
+    "id": "joker karo",
+    "name": "szeryf",
+    "desc": "pokonaj bandytów"
+  },
+  {
+    "id": "joker trefl",
+    "name": "renegat",
+    "desc": "pokonaj wszystkich graczy"
+  },
+  {
+    "id": "joker kier",
+    "name": "szeryf",
+    "desc": "pokonaj bandytów"
+  },
+  {
+    "id": "2 kier",
+    "name": "none",
+    "desc": "karta nieprzypisana"
+  },
+  {
+    "id": "3 kier",
+    "name": "gnat2",
+    "desc": "zasięg 2"
+  },
+  {
+    "id": "4 kier",
+    "name": "gnat2",
+    "desc": "zasięg 2"
+  },
+  {
+    "id": "5 kier",
+    "name": "gnat3",
+    "desc": "zasięg 3"
+  },
+  {
+    "id": "6 kier",
+    "name": "gnat4",
+    "desc": "zasięg 4"
+  },
+  {
+    "id": "7 kier",
+    "name": "gnat5",
+    "desc": "zasięg 5"
+  },
+  {
+    "id": "8 kier",
+    "name": "Volcanic",
+    "desc": "możesz użyć dowolnej liczby bangów w swoim ruchu"
+  },
+  {
+    "id": "9 kier",
+    "name": "luneta",
+    "desc": "widzisz innych graczy w zasięgu -1"
+  },
+  {
+    "id": "10 kier",
+    "name": "sklep",
+    "desc": "połóż tyle kart ile graczy - każdy dobiera jedną po kolei"
+  },
+  {
+    "id": "jopek kier",
+    "name": "mustang",
+    "desc": "każdy gracz widzi Cię w zasięgu +1"
+  },
+  {
+    "id": "królowa kier",
+    "name": "kasiabalou",
+    "desc": "zabierz 1 kartę graczowi"
+  },
+  {
+    "id": "król kier",
+    "name": "baryłka",
+    "desc": "2-10 kier - działa jak pudło"
+  },
+  {
+    "id": "as kier",
+    "name": "dynamit",
+    "desc": "2-8 pik - tracisz 3pkt życia - podaj dalej po swojej turze"
+  },
+  {
+    "id": "2 pik",
+    "name": "none",
+    "desc": "karta nieprzypisana"
+  },
+  {
+    "id": "3 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "4 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "5 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "6 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "7 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "8 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "9 pik",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "10 pik",
+    "name": "więzienie",
+    "desc": "kieruj gracza do więzienia na 1 rundę - 2-10 kier to wyjście z więzienia"
+  },
+  {
+    "id": "jopek pik",
+    "name": "pojedynek",
+    "desc": "pierwszy gracz bez banga otrzymuje obrażenia"
+  },
+  {
+    "id": "królowa pik",
+    "name": "panika",
+    "desc": "zniszcz jedną kartę gracza"
+  },
+  {
+    "id": "król pik",
+    "name": "none",
+    "desc": "karta nieprzypisana"
+  },
+  {
+    "id": "as pik",
+    "name": "bandyta",
+    "desc": "pokonaj szeryfa"
+  },
+  {
+    "id": "2 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "3 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "4 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "5 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "6 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "7 karo",
+    "name": "pudło",
+    "desc": "uniknij karty bang"
+  },
+  {
+    "id": "8 karo",
+    "name": "piwko",
+    "desc": "odzyskaj 1 pkt życia"
+  },
+  {
+    "id": "9 karo",
+    "name": "piwko",
+    "desc": "odzyskaj 1 pkt życia"
+  },
+  {
+    "id": "10 karo",
+    "name": "piwko",
+    "desc": "odzyskaj 1 pkt życia"
+  },
+  {
+    "id": "jopek karo",
+    "name": "dylizans",
+    "desc": "dobierz 2 karty"
+  },
+  {
+    "id": "królowa karo",
+    "name": "kasiabalou",
+    "desc": "zabierz 1 kartę graczowi"
+  },
+  {
+    "id": "król karo",
+    "name": "wellsfargo",
+    "desc": "dobierz 3 karty"
+  },
+  {
+    "id": "as karo",
+    "name": "saloon",
+    "desc": "każdy gracz odzyskuje 1pkt życia"
+  },
+  {
+    "id": "2 trefl",
+    "name": "none",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "3 trefl",
+    "name": "none",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "4 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "5 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "6 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "7 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "8 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "9 trefl",
+    "name": "bang",
+    "desc": "strzel do gracza w zasięgu"
+  },
+  {
+    "id": "10 trefl",
+    "name": "wiezienie",
+    "desc": "skieruj gracza do więzienia na 1 rundę - 2-10 kier to wyjście z więzienia"
+  },
+  {
+    "id": "jopek trefl",
+    "name": "pojedynek",
+    "desc": "pierwszy gracz bez banga otrzymuje obrażenia"
+  },
+  {
+    "id": "królowa trefl",
+    "name": "panika",
+    "desc": "zniszcz jedną kartę gracza"
+  },
+  {
+    "id": "król trefl",
+    "name": "gatling",
+    "desc": "każdy gracz musi użyć pudła albo traci 1pkt życia"
+  },
+  {
+    "id": "as trefl",
+    "name": "bandyta",
+    "desc": "pokonaj szeryfa"
+  }
+]
+}
