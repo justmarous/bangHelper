@@ -2,6 +2,7 @@ import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {pickClear, selectCard} from "../redux/drawerSlice";
 import {deckLibrary} from "../services/deckLibrary"
+import {CSSTransition} from 'react-transition-group';
 
 function Card(props) {
     const card = useSelector(selectCard);
@@ -9,7 +10,8 @@ function Card(props) {
 
 
 let containerStyle = {
-        border: "solid 15px black"
+        border: "solid 15px black",
+        opacity: "0.3",
 }
 
 
@@ -27,11 +29,21 @@ let containerStyle = {
     }
 
 
+    fetch()
+
+
     return (
-        <div className={"card-body"} style={containerStyle} onClick={()=>dispatch(pickClear())}>
+        <CSSTransition
+            transitionName="example"
+            transitionEnterTimeout={500}
+            transitionLeaveTimeout={300}>
+
+        <div className={"card-body"} key={1} style={containerStyle} onClick={()=>dispatch(pickClear())}>
                 <h1 style={cardTitleStyle}>{deckLibrary(card).name==="none" ? "" : deckLibrary(card).name}</h1>
-                <p style={cardDescStyle}>{deckLibrary(card).desc}</p>
+                <p  style={cardDescStyle}>{deckLibrary(card).desc}</p>
         </div>
+
+        </CSSTransition>
     );
 }
 

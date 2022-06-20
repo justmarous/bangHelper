@@ -9,15 +9,13 @@ function CardPicker(props) {
     const colour = useSelector(selectColour)
     const number = useSelector(selectNumber)
 
-
-
-
     return (
         <div>
             {(number!==null && colour!==null) ?  <Card/> : <><Colours/><Numbers/></> }
         </div>
     )
 }
+
 
 
 export default CardPicker;
