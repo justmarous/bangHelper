@@ -5,7 +5,7 @@ import Title from "./components/Title";
 // import {selectCard, selectNumber} from "./redux/drawerSlice";
 import Footer from "./components/Footer";
 import store from "./redux/store";
-import {Provider, useSelector} from "react-redux";
+import {Provider} from "react-redux";
 import CardPicker from "./components/CardPicker";
 import express from "express"
 const app = express();
@@ -17,7 +17,7 @@ const port = process.env.PORT || 5000
 if(process.env.NODE_ENV === "production"){
     app.use(express.static('build'))
     app.get('*',(req,res)=>{
-        req.sendFile(path.resolve(__dirname,'build','index.html'))
+        res.sendFile(path.resolve(__dirname,'build','index.html'))
     })
 }
 
