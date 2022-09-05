@@ -29,8 +29,6 @@ let containerStyle = {
     }
 
 
-    fetch()
-
 
     return (
         <CSSTransition
