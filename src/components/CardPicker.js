@@ -1,11 +1,11 @@
 import React from 'react';
 import {useSelector} from "react-redux";
-import {selectCard, selectColour, selectNumber} from "../redux/drawerSlice";
+import {selectColour, selectNumber} from "../redux/drawerSlice";
 import Colours from "./Colours";
 import Numbers from "./Numbers";
 import Card from "./Card";
 
-function CardPicker(props) {
+function CardPicker() {
     const colour = useSelector(selectColour)
     const number = useSelector(selectNumber)
 

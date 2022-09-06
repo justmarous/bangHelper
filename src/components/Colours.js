@@ -1,12 +1,10 @@
-import React, {useEffect} from 'react';
-import Draggable from "react-draggable";
-import {pickColour, pickNumber, selectCard, selectColour} from "../redux/drawerSlice";
-import {useDispatch, useSelector} from "react-redux";
+import React from 'react';
+import {pickColour} from "../redux/drawerSlice";
+import {useDispatch} from "react-redux";
 
-function Colours(props) {
+function Colours() {
 
     const dispatch = useDispatch()
-    const currentColor = useSelector(selectColour)
 
 
     function handleClick(e, colour) {

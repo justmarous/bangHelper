@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
-import Draggable from "react-draggable";
-import {useDispatch, useSelector} from "react-redux";
-import {pickColour, pickedCard, pickNumber, selectColour, selectNumber} from "../redux/drawerSlice";
+import React from 'react';
+// import Draggable from "react-draggable";
+import {useDispatch} from "react-redux";
+import { pickNumber} from "../redux/drawerSlice";
 
-export function Numbers(props) {
+export function Numbers() {
     const dispatch = useDispatch()
-    const number = useSelector(selectNumber)
 
 
     function handleClick(e, number) {

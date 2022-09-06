@@ -4,7 +4,7 @@ import {pickClear, selectCard} from "../redux/drawerSlice";
 import {deckLibrary} from "../services/deckLibrary"
 import {CSSTransition} from 'react-transition-group';
 
-function Card(props) {
+function Card() {
     const card = useSelector(selectCard);
     const dispatch = useDispatch()
 
